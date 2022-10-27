@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+
+
+:root{
+    --cor-red:rgba(139, 0, 0, 0.884);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+#cabeçalho{
+    display: block;
+    margin: auto;
+    text-align: center;
+    color:var(--cor-red);
+    
+}
+
+#cabeçalho h1{
+    margin-top: 10px;
+}
+
+#botao{
+    cursor: pointer;
+
+}
+
+.menu li{
+   display: block;
+   padding: 7px 0px;
+    background-color: var(--cor-red);;
+    margin-bottom: 1px;
+}
+.menu a {
+    color: white;
+    padding: 10px;
+    
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: rgb(88, 2, 2);
+}
+
+
+.img{
+    background: url('../imagens/foto-minha-removebg.png') no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 180px;
+    margin: auto;
+}
+
+#principal{
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    margin: auto;
+    height: auto;
+    padding: 5px;
+    width: 100vw;
+ }
+ 
+
+ .botoes{
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+ .botoes a{
+    text-decoration: none;
+    border-radius: 5px;
+ }
+
+ .botoes-um{
+    border: 2px solid rgba(55, 174, 230, 0.911);
+    padding: 6px 20px;
+ }
+ 
+ .botoes-dois{
+    border: 2px solid rgba(213, 45, 247, 0.911);
+    padding: 6px 20px;
+
+ }
