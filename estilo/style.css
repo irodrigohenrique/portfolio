@@ -67,6 +67,11 @@
     padding: 5px;
     width: 100vw;
  }
+
+ .principal-texto{
+    margin: auto;
+    width: 300px;
+ }
  
 
  .botoes{
