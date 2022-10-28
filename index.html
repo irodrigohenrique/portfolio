@@ -12,15 +12,15 @@
 <body>
     <header id="cabeçalho">
         <h1>RHAP</h1>
-        <span class="material-symbols-outlined" id="botao">
+        <span class="material-symbols-outlined" id="botao" onclick="clickmenu()">
             menu
             </span>
-        <menu class="menu">
+        <menu id="item" >
            <ul>
             <li><a href="">Sobre</a></li>
             <li><a href="">Skills</a></li>
-            <li><a href="">Projetos</a> </li>
-            <li><a href="">Contatos</a> </li>
+            <li><a href="">Projetos</a></li>
+            <li><a href="">Contatos</a></li>
            </ul>
         </menu>
     </header>
@@ -43,5 +43,16 @@
 
         </div>
     </main>
+
+    <script>
+        function clickmenu(){
+            if (item.style.display == 'block'){
+                item.style.display = 'none'
+            }else{
+                item.style.display = 'block'
+            }
+
+        }
+    </script>
 </body>
 </html>

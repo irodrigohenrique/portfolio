@@ -25,8 +25,40 @@ Grandes telas: acima de 1200px
 
 
 @media screen and (min-width:992px) and (max-width:1200px) { /*DESKTOP*/
-   
+    
 }
 
 @media screen and (min-width:1200px) { /*GRANDES TELAS*/
+    body{
+        background-color: azure;
+    }
+    
+    #botao{
+        display:none;
+        }
+        #cabeçalho{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+
+        }
+
+        #principal{
+            
+            width: 100vw;
+        }
+       
+        #item{
+            padding-top: 20px;
+            display: inline;
+        }
+
+        #item li{
+            display: inline;
+        }
+
+        .img{
+            width: 300px;
+            height: 300px;
+        }
 }
