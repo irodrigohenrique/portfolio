@@ -14,7 +14,8 @@
 }
 
 body{
-    background-color: azure;
+ background-color: azure;
+    
 }
 
 
@@ -93,7 +94,8 @@ color: white;
 
  .principal-texto{
     margin: auto;
-    width: 300px;
+    max-width: 250px;
+    
  }
  
 
@@ -107,20 +109,21 @@ color: white;
 
 
  .botoes a{
+    display: flex;
     color: black;
-   
+   gap: 10px;
     text-decoration: none;
     border-radius: 5px;
  }
 
  .botoes-um{
     border: 2px solid rgba(55, 174, 230, 0.911);
-    padding: 6px 20px;
+    padding: 6px 15px;
  }
 
  .botoes-um:hover{
     background-color:rgba(55, 174, 230, 0.911) ;
-    color: white;
+    color: black;
     text-decoration: underline;
     
  }
@@ -133,7 +136,27 @@ color: white;
  }
 
  .botoes-dois:hover{
-    color: white;
+    color: black;
     background-color: rgba(213, 45, 247, 0.911);
     text-decoration: underline;
+ }
+
+
+ .img-botao{
+    
+    background:url('../imagens/linkedin-icone-main.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+
+ }
+
+ .img-botao-dois{
+    background:url('../imagens/github-icon.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+
  }
