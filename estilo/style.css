@@ -21,6 +21,7 @@ body{
 
 
 #cabeçalho{
+    
     display: block;
     margin: auto;
     text-align: center;
@@ -31,8 +32,7 @@ body{
 }
 
 #cabeçalho h1{
-   padding: 10px;
-
+padding-top: 20px;
 }
 
 
@@ -90,6 +90,7 @@ color: white;
     padding: 5px;
     width: 100vw;
     height: 60vh;
+    padding-top: 150px;
  }
 
  .principal-texto{
