@@ -30,7 +30,7 @@ Grandes telas: acima de 1200px
 
 @media screen and (min-width:1200px) { /*GRANDES TELAS*/
     body{
-        background-color: azure;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.842),rgb(49, 49, 49) );
     }
     
     #botao{
@@ -47,6 +47,11 @@ Grandes telas: acima de 1200px
             font-size: 2.3em;
         }
 
+
+        #item a{
+            font-weight: bolder;
+         }
+         
         #principal{
             
             width: 100vw;

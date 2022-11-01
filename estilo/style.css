@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Trispace&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
     
@@ -14,7 +16,7 @@
 }
 
 body{
-   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.842),rgb(49, 49, 49) );
+  background-color: rgba(2, 2, 2, 0.87);
    
 }
 
@@ -32,6 +34,8 @@ body{
 #cabeçalho h1{
 padding-top: 10px;
 color: white;
+
+font-family: 'Trispace', sans-serif
 }
 
 
@@ -44,8 +48,8 @@ color: white;
 }
 
 span#botao:hover{
-background-color: rgba(0, 139, 139, 0.76);
-color: rgb(255, 255, 255);
+
+color: white;
 }
 
 #item{
@@ -63,13 +67,13 @@ color: rgb(255, 255, 255);
     margin-bottom: 1px;
 }
 #item a {
-    color: white;
+    color:rgb(0, 183, 255);
     padding: 10px;
     text-decoration: none;
 }
 
 #item a:hover{
-   color:black;
+   color:rgb(250, 250, 250);
 }
 
 
@@ -93,6 +97,7 @@ color: rgb(255, 255, 255);
  }
 
  .principal-texto{
+   font-family: 'Poppins', sans-serif;
    color: white;
     margin: auto;
     max-width: 350px;
@@ -105,7 +110,7 @@ color: rgb(255, 255, 255);
  }
  
 span{
-  color:var(--cor-red);
+  color:rgb(0, 183, 255);
  }
 
  .botoes{
@@ -126,13 +131,13 @@ span{
  }
 
  .botoes-um{
-    border: 2px solid rgba(55, 174, 230, 0.911);
+      border: 2px solid rgb(0, 183, 255);
     padding: 6px 15px;
     
  }
 
  .botoes-um:hover{
-    background-color:rgba(55, 174, 230, 0.911) ;
+    background-color:rgb(0, 183, 255) ;
     color: white;
     text-decoration: underline;
     
