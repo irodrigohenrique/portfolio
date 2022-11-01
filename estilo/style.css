@@ -3,7 +3,7 @@
 
 
 :root{
-    --cor-red:rgba(139, 0, 0, 0.884);
+    
 }
 
 
@@ -14,25 +14,24 @@
 }
 
 body{
- background-color: azure;
-    
+   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.842),rgb(49, 49, 49) );
+   
 }
 
 
 
 #cabeçalho{
-    
+   
     display: block;
     margin: auto;
     text-align: center;
-    color:var(--cor-red);
-    background-color: azure;
-    border-bottom: 1px solid darkred;
+    border-bottom: 1px solid black;
     
 }
 
 #cabeçalho h1{
 padding-top: 10px;
+color: white;
 }
 
 
@@ -45,8 +44,8 @@ padding-top: 10px;
 }
 
 span#botao:hover{
-background-color: var(--cor-red);
-color: white;
+background-color: rgba(0, 139, 139, 0.76);
+color: rgb(255, 255, 255);
 }
 
 #item{
@@ -56,10 +55,11 @@ color: white;
 }
 
 #item li{
+   font-size: 16px;
    display: block;
    border-radius: 5px;
    padding: 7px;
-    background-color: var(--cor-red);;
+    
     margin-bottom: 1px;
 }
 #item a {
@@ -69,7 +69,7 @@ color: white;
 }
 
 #item a:hover{
-    color: rgb(88, 2, 2);
+   color:black;
 }
 
 
@@ -84,7 +84,6 @@ color: white;
 #principal{
     display: flex;
     align-items: center;
-    background-color: azure;
     margin: auto;
     height: auto;
     padding: 5px;
@@ -94,11 +93,20 @@ color: white;
  }
 
  .principal-texto{
+   color: white;
     margin: auto;
-    max-width: 250px;
+    max-width: 350px;
     
  }
+
+
+ .principal-texto P{
+   font-size: 17px;
+ }
  
+span{
+  color:var(--cor-red);
+ }
 
  .botoes{
     
@@ -111,7 +119,7 @@ color: white;
 
  .botoes a{
     display: flex;
-    color: black;
+    color: white;
    gap: 10px;
     text-decoration: none;
     border-radius: 5px;
@@ -120,11 +128,12 @@ color: white;
  .botoes-um{
     border: 2px solid rgba(55, 174, 230, 0.911);
     padding: 6px 15px;
+    
  }
 
  .botoes-um:hover{
     background-color:rgba(55, 174, 230, 0.911) ;
-    color: black;
+    color: white;
     text-decoration: underline;
     
  }
@@ -137,7 +146,8 @@ color: white;
  }
 
  .botoes-dois:hover{
-    color: black;
+    
+    color: white;
     background-color: rgba(213, 45, 247, 0.911);
     text-decoration: underline;
  }
