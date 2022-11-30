@@ -30,7 +30,7 @@ Grandes telas: acima de 1200px
 
 @media screen and (min-width:1200px) { /*GRANDES TELAS*/
     body{
-      background-color: #405280;
+      background-color: #1a284d;
     }
     
     #botao{
