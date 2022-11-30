@@ -16,7 +16,7 @@
 }
 
 body{
-   background-color: #405280;
+   background-color: #1a284d;
    
 }
 
@@ -33,7 +33,7 @@ body{
 
 #cabeçalho h1{
 padding-top: 10px;
-color: #000000;
+color: #ffffff;
 
 font-family: 'Trispace', sans-serif
 }
@@ -65,13 +65,13 @@ color: rgb(0, 0, 0);
    margin-bottom: 1px;
 }
 #item a {
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     padding: 10px;
     text-decoration: none;
 }
 
 #item a:hover{
-   color:rgb(255, 255, 255);
+   color:rgb(2, 2, 2);
 }
 
 
@@ -96,7 +96,7 @@ color: rgb(0, 0, 0);
 
  .principal-texto{
    font-family: 'Poppins', sans-serif;
-   color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
     margin: auto;
     max-width: 350px;
     
@@ -106,9 +106,13 @@ color: rgb(0, 0, 0);
  .principal-texto P{
    font-size: 17px;
  }
- 
+
+.rodri{
+   color: rgb(0, 0, 0);
+}
+
 span{
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
  }
 
  .botoes{
