@@ -16,7 +16,7 @@
 }
 
 body{
-  background-color: rgba(2, 2, 2, 0.87);
+   background-color: #405280;
    
 }
 
@@ -33,7 +33,7 @@ body{
 
 #cabeçalho h1{
 padding-top: 10px;
-color: white;
+color: #000000;
 
 font-family: 'Trispace', sans-serif
 }
@@ -49,31 +49,29 @@ font-family: 'Trispace', sans-serif
 
 span#botao:hover{
 
-color: white;
+color: rgb(0, 0, 0);
 }
 
 #item{
-    display: none;
-   
-    
+    display: none; 
 }
 
 #item li{
-   font-size: 16px;
+   font-size: 17px;
    display: block;
    border-radius: 5px;
+   font-family:  Georgia, 'Times New Roman', Times, serif;
    padding: 7px;
-    
-    margin-bottom: 1px;
+   margin-bottom: 1px;
 }
 #item a {
-    color:rgb(0, 183, 255);
+    color:rgb(0, 0, 0);
     padding: 10px;
     text-decoration: none;
 }
 
 #item a:hover{
-   color:rgb(250, 250, 250);
+   color:rgb(255, 255, 255);
 }
 
 
@@ -98,7 +96,7 @@ color: white;
 
  .principal-texto{
    font-family: 'Poppins', sans-serif;
-   color: white;
+   color: rgb(0, 0, 0);
     margin: auto;
     max-width: 350px;
     
@@ -110,7 +108,7 @@ color: white;
  }
  
 span{
-  color:rgb(0, 183, 255);
+  color:rgb(0, 0, 0);
  }
 
  .botoes{
@@ -125,7 +123,7 @@ span{
  .botoes a{
     display: flex;
     color: white;
-   gap: 10px;
+    gap: 10px;
     text-decoration: none;
     border-radius: 5px;
  }
@@ -151,7 +149,6 @@ span{
  }
 
  .botoes-dois:hover{
-    
     color: white;
     background-color: rgba(213, 45, 247, 0.911);
     text-decoration: underline;

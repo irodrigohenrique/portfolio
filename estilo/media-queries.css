@@ -30,7 +30,7 @@ Grandes telas: acima de 1200px
 
 @media screen and (min-width:1200px) { /*GRANDES TELAS*/
     body{
-        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.842),rgb(49, 49, 49) );
+      background-color: #405280;
     }
     
     #botao{
